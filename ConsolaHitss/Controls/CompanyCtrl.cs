@@ -45,7 +45,7 @@ namespace ConsolaHitss
             var company = GetCompanyById(id);
             if(company != null)
             {
-                company.Status = 0;
+                company.Estatus = 0;
 
                 hitss.SaveChanges();
             }

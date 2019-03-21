@@ -16,6 +16,6 @@ namespace ConsolaHitss
         public String Description { get; set; }
         [Column(TypeName = "datetime2")]
         public DateTime StrartDate { get; set; }
-        public int Status { get; set; }
+        public int Estatus { get; set; }
     }
 }

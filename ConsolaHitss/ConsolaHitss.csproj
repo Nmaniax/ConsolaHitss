@@ -55,7 +55,7 @@
     <Compile Include="Company.cs" />
     <Compile Include="Controls\ClientCtrl.cs" />
     <Compile Include="Controls\CompanyCtrl.cs" />
-    <Compile Include="Control.cs" />
+    <Compile Include="Controls\Control.cs" />
     <Compile Include="Controls\EmployeeProjectCtrl.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Controls\EmployeeCtrl.cs" />

@@ -20,6 +20,8 @@ namespace ConsolaHitss
         public DateTime StartDate { get; set; }
         public int Estatus { get; set; }
 
-        public virtual Company Company { get; set; }
+        [ForeignKey("Company")]
+        public int CompanyId { get; set; }
+        public Company Company { get; set; }
     }
 }
