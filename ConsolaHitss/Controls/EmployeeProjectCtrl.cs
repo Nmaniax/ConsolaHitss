@@ -18,6 +18,7 @@ namespace ConsolaHitss.Controls
         public EmployeeProject GetEmployeeProjectById( int id)
         {
             return hitss.EP.FirstOrDefault(e => e.Id == id);
+            //Yeet
         }
 
         public void CreateEmployeeProject(EmployeeProject employee)
